@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/site-style.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,500&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+
+	<title>barbershop</title>
+</head>
+
+<body>
+		<header id="header" class="col-12 py-3 position-fixed fixed-top z-top px-3 bg-xl-brown">	
+				<div class="container d-flex flex-wrap">
+					<a href="/" class="d-block col-2 col-xl-5">
+						<img src="img/logo.png" alt="Site logo">
+					</a>
+					
+					<div class="col-xl-7 d-none d-xl-flex align-items-center justify-content-end">
+						<div id="burger" class="burger position-relative"><span></span></div>
+					</div>
+		
+					<nav id="navigation" class="main_nav col-8 col-xl-12 d-flex align-items-center pl-5 flex-xl-column">
+						<ul class="d-flex list-style-none flex-xl-column">
+							<li><a href="#" class="active">Home</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Service</a></li>
+							<li class="has_child">
+								<a href="#">Blog</a>
+								<ul class="sub_menu">
+									<li><a href="#">Blog</a></li>
+									<li><a href="#">Single-Blog</a></li>
+								</ul>
+							</li>
+							<li class="has_child">
+								<a href="#">Pages</a>
+								<ul class="sub_menu">
+									<li><a href="#">Elements</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Contacts</a></li>
+						</ul>
+		
+						<button id="make_an_appointment" class="btn btn-outline px-3 py-2 d-none d-xl-inline-block modal_form_trigger">Make an Appointment</button>
+					</nav>
+		
+					<div class="col-2 d-flex align-items-center d-xl-none">	
+						<a href="#" id="make_an_appointment" class=" btn-outline  modal_form_trigger py-2 px-3">Make an Appointment</a>
+					</div>
+				</div>
+			</header>
+
+		<section class="banner d-flex justify-content-center align-items-center">
+			<div class="col-5 text-center text-white">
+				<img src="/img/barber_text.webp" alt="logo">
+				<h1 class="pt-3 font-weight-900">Best Barber In Your Town</h1>
+				<div class="text-center subtitle text-24 p-3 position-relative d-inline-block">Professional Care</div>
+			</div>
+		</section>
+		<section class="py-5 container d-flex flex-wrap">
+			<div class="col-6 col-md-12 position-relative text-center">
+				<img src="/img/about_lft.webp" alt="">
+				<div class="fixed-center position-absolute bg-white p-4">
+					<i class="far fa-clock text-24"></i>
+					<div class="text-24 font-weight-900 text-brown py-2">Opening Hour</div>
+					<div class="text-16 text-gray pt-2">Mon-Fri (9.00-11.00)</div>
+					<div class="text-16 text-gray pt-1">Sat (10.00-4.00)</div>
+				</div>
+			</div>
+			<div class="col-6 col-md-12 px-3 pt-5 pb-3 pl-5">
+				<div class="text-light-brown pt-3">About Us</div>
+				<h1 class="text-42 font-weight-500 text-brown pt-4">Experienced and <br> Traditional Stylish <br> Barber
+					Shop</h1>
+				<p class="text-grey text-16 pt-4">Inspires employees and br organizations to support causes they care
+					about. We do this to bring more resources to the nonprofits that are changing our world.</p>
+				<div class="pt-4"><a href="#"
+						class="d-inline-block bg-light-brown text-decoration-none btn-brown px-3 py-2"> Learn More</a>
+				</div>
+			</div>
+		</section>
+		<section class='position-relative py-5'>
+			<img class="position-absolute service_img" src="/img/banner_service.webp" alt="">
+			<div class="text-center py-5">
+				<div>
+					<div class="text-white pt-5 text-24">
+						<i class="fas fa-cut"></i>
+					</div>
+					<h2 class="text-white text-center text-42 font-weight-400 d-inline-block section-title pb-3">our service</h2>
+				</div>
+			</div>
+			<div class="bg-white py-3 container shadow">
+				<div class="d-flex flex-wrap ">
+					<div class="col-6 px-5 pb-3 col-md-12">
+						<div class=" d-flex service_block col-12 py-3">
+							<div class="col-6 d-flex ">
+								<div class="col-3 d-flex align-items-center">
+									<img class="circle_img" src="img/service1.webp" alt="s1">
+								</div>
+								<div class="col-9 d-flex align-items-center text-18 text-brown pl-2 font-weight-900">
+									Haircut and shampoo
+								</div>
+							</div>
+							<div
+								class="col-6 col-sm-4 position-relative d-flex align-items-center justify-content-end doted ">
+								<div
+									class="d-inline-block  bg-white p-1 text-18 font-weight-400 text-light-brown position-absolute">
+									................................$15</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-6 px-5 pb-3 col-md-12">
+						<div class=" d-flex service_block col-12 py-3">
+							<div class="col-6 d-flex">
+								<div class="col-3 d-flex align-items-center">
+									<img class="circle_img" src="img/service1.webp" alt="s1">
+								</div>
+								<div class="col-9 d-flex align-items-center text-18 text-brown pl-2 font-weight-900">
+									Haircut and shampoo
+								</div>
+							</div>
+							<div
+								class="col-6 col-sm-4 position-relative d-flex align-items-center justify-content-end doted ">
+								<div
+									class="d-inline-block  bg-white p-1 text-18 font-weight-400 text-light-brown position-absolute">
+									................................$15</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-6 px-5 pb-3 col-md-12">
+						<div class=" d-flex service_block col-12 py-3">
+							<div class="col-6 d-flex">
+								<div class="col-3 d-flex align-items-center">
+									<img class="circle_img" src="img/service1.webp" alt="s1">
+								</div>
+								<div class="col-9 d-flex align-items-center text-18 text-brown pl-2 font-weight-900">
+									Haircut and shampoo
+								</div>
+							</div>
+							<div
+								class="col-6 col-sm-4 position-relative d-flex align-items-center justify-content-end doted ">
+								<div
+									class="d-inline-block  bg-white p-1 text-18 font-weight-400 text-light-brown position-absolute">
+									................................$15</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-6 px-5 pb-3 col-md-12">
+						<div class=" d-flex service_block col-12 py-3">
+							<div class="col-6 d-flex">
+								<div class="col-3 d-flex align-items-center">
+									<img class="circle_img" src="img/service1.webp" alt="s1">
+								</div>
+								<div class="col-9 d-flex align-items-center text-18 text-brown pl-2 font-weight-900">
+									Haircut and shampoo
+								</div>
+							</div>
+							<div
+								class="col-6 col-sm-4 position-relative d-flex align-items-center justify-content-end doted ">
+								<div
+									class="d-inline-block  bg-white p-1 text-18 font-weight-400 text-light-brown position-absolute">
+									................................$15</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-6 px-5 pb-3 col-md-12">
+						<div class=" d-flex service_block col-12 py-3">
+							<div class="col-6 d-flex">
+								<div class="col-3 d-flex align-items-center">
+									<img class="circle_img" src="img/service1.webp" alt="s1">
+								</div>
+								<div class="col-9 d-flex align-items-center text-18 text-brown pl-2 font-weight-900">
+									Haircut and shampoo
+								</div>
+							</div>
+							<div
+								class="col-6 col-sm-4 position-relative d-flex align-items-center justify-content-end doted ">
+								<div
+									class="d-inline-block  bg-white p-1 text-18 font-weight-400 text-light-brown position-absolute">
+									................................$15</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-6 px-5 pb-3 col-md-12">
+						<div class=" d-flex service_block col-12 py-3">
+							<div class="col-6 d-flex">
+								<div class="col-3 d-flex align-items-center">
+									<img class="circle_img" src="img/service1.webp" alt="s1">
+								</div>
+								<div class="col-9 d-flex align-items-center text-18 text-brown pl-2 font-weight-900">
+									Haircut and shampoo
+								</div>
+							</div>
+							<div
+								class="col-6 col-sm-4 position-relative d-flex align-items-center justify-content-end doted ">
+								<div
+									class="d-inline-block  bg-white p-1 text-18 font-weight-400 text-light-brown position-absolute">
+									................................$15</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-6 px-5 pb-3 col-md-12">
+						<div class=" d-flex service_block col-12 py-3">
+							<div class="col-6 d-flex">
+								<div class="col-3 d-flex align-items-center">
+									<img class="circle_img" src="img/service1.webp" alt="s1">
+								</div>
+								<div class="col-9 d-flex align-items-center text-18 text-brown pl-2 font-weight-900">
+									Haircut and shampoo
+								</div>
+							</div>
+							<div
+								class="col-6 col-sm-4 position-relative d-flex align-items-center justify-content-end doted ">
+								<div
+									class="d-inline-block  bg-white p-1 text-18 font-weight-400 text-light-brown position-absolute">
+									................................$15</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-6 px-5 pb-3 col-md-12">
+						<div class=" d-flex service_block col-12 py-3">
+							<div class="col-6 d-flex">
+								<div class="col-3 d-flex align-items-center">
+									<img class="circle_img" src="img/service1.webp" alt="s1">
+								</div>
+								<div class="col-9 d-flex align-items-center text-18 text-brown pl-2 font-weight-900">
+									Haircut and shampoo
+								</div>
+							</div>
+							<div
+								class="col-6 col-sm-4 position-relative d-flex align-items-center justify-content-end doted ">
+								<div
+									class="d-inline-block  bg-white p-1 text-18 font-weight-400 text-light-brown position-absolute">
+									................................$15</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-6 px-5 pb-3 col-md-12">
+						<div class=" d-flex service_block col-12 py-3">
+							<div class="col-6 d-flex">
+								<div class="col-3 d-flex align-items-center">
+									<img class="circle_img" src="img/service1.webp" alt="s1">
+								</div>
+								<div class="col-9 d-flex align-items-center text-18 text-brown pl-2 font-weight-900">
+									Haircut and shampoo
+								</div>
+							</div>
+							<div
+								class="col-6 col-sm-4 position-relative d-flex align-items-center justify-content-end doted ">
+								<div
+									class="d-inline-block  bg-white p-1 text-18 font-weight-400 text-light-brown position-absolute">
+									................................$15</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-6 px-5 pb-3 col-md-12">
+						<div class=" d-flex service_block col-12 py-3">
+							<div class="col-6 d-flex">
+								<div class="col-3 d-flex align-items-center">
+									<img class="circle_img" src="img/service1.webp" alt="s1">
+								</div>
+								<div class="col-9 d-flex align-items-center text-18 text-brown pl-2 font-weight-900">
+									Haircut and shampoo
+								</div>
+							</div>
+							<div
+								class="col-6 col-sm-4 position-relative d-flex align-items-center justify-content-end doted ">
+								<div
+									class="d-inline-block  bg-white p-1 text-18 font-weight-400 text-light-brown position-absolute">
+									................................$15</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="d-flex justify-content-center py-5">
+					<a id="make_an_appointment" class="px-4 py-3  btn-white modal_form_trigger" href="#">Make an Appointment</a>
+				</div>
+
+			</div>
+			</div>
+
+		</section>
+
+		<section class="conteiner pb-5 tp-5">
+			<div class="pb-5 ">
+				<div class="text-brown pt-5 text-24 text-center text-light-brown">
+					<i class="fas fa-cut"></i>
+				</div>
+				<h2 class=" text-brown text-center text-42 font-weight-400 text-42  section-title pb-3">
+					Our Gallery</h2>
+			</div>
+			<div class="d-flex justify-content-center flex-wrap gallery">
+				<div class="col-3 px-2 col-md-8 my-3">
+					<img class="col-12" src="img/gallery2.webp" alt="">
+				</div>
+				<div class="col-3 px-2 col-md-8 my-3">
+					<img class="col-12" src="img/video.webp" alt="">
+				</div>
+				<div class="col-3 px-2 col-md-8 my-3">
+					<img class="col-12" src="img/gallery2.webp" alt="">
+				</div>
+			</div>
+		</section>
+		<section class="conteiner px-3 d-flex align-items-center bg-light-brown py-5 flex-wrap ">
+			<div class="col-6 col-md-12 text-center f-family-roman  ">
+				<div class="text-light-brown py-3 ">How we Work</div>
+				<h2 class="text-brown font-weight-400 text-42 pb-3">Watch the Video How we Work?</h2>
+				<p class="l-height-28">Inspires employees and organizations to support causes they care about. </p>
+				<p class="l-height-28">We do this to bring more resources to the nonprofits that are changing our world.</p>
+				<div class="pt-4 ">
+					<a href="#"class="d-inline-block f-family-roman bg-light-brown text-decoration-none btn-brown px-4 py-3">Book now</a>
+				</div>
+			</div>
+
+			<div class="col-6 p-3 circle-video col-md-12 ">
+				<img src="/img/video.webp" alt="">
+				<a href="https://www.youtube.com/watch?v=I4NcwG-zusE&feature=emb_title"> <i class="fa fa-play"></i></a>
+			</div>
+		</section>
+
+		<section class="conteiner mb-10 d-flex flex-wrap">
+			<div class="pb-5 col-12">
+				<div class="text-brown pt-5 text-24 text-center text-light-brown">
+					<i class="fas fa-cut"></i>
+				</div>
+				<h2 class=" text-brown text-center text-42 font-weight-400 text-42  section-title pb-3">Our Cutter
+					Masters</h2>
+			</div>
+			<div class="d-flex col-12 flex-wrap justify-content-center">
+				<div class="d-flex justify-content-center">
+					<div class="col-2 col-md-5 col-lg-5 gallery-masters m-2 position-relative">
+						<img class="col-12" src="/img/gallery2.webp" alt="">
+						<div class="text-center">
+							<div class="py-4">
+								<h2 class="text-20 text-brown font-weight-400 pt-3">Rona Dana</h2>
+								<p class='text-gray text-14'>Ladies Cut</p>
+							</div>
+							<div class="web-service position-absolute text-2">
+								<a href="#"><i class="fab fa-instagram text-decoration-none text-white text-24 px-1"></i></a>
+								<a href="#"><i class="fab fa-twitter text-decoration-none text-white text-24 px-1"></i></a>
+								<a href="#"><i class="fas fa-envelope text-decoration-none text-white text-24 px-1"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-2 col-md-5 col-lg-5 gallery-masters m-2 position-relative">
+						<img class="col-12" src="/img/gallery2.webp" alt="">
+						<div class="text-center">
+							<div class="py-4">
+							<h2 class="text-20 text-brown font-weight-400 pt-3">Rona Dana</h2>
+								<p class='text-gray text-14'>Ladies Cut</p>
+							</div>
+							<div class="web-service position-absolute text-2">
+								<a href="#"><i class="fab fa-instagram text-decoration-none text-white text-24 px-1"></i></a>
+								<a href="#"><i class="fab fa-twitter text-decoration-none text-white text-24 px-1"></i></a>
+								<a href="#"><i class="fas fa-envelope text-decoration-none text-white text-24 px-1"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-2 col-md-5 col-lg-5 gallery-masters m-2 position-relative">
+						<img class="col-12" src="/img/gallery2.webp" alt="">
+						<div class="text-center">
+							<div class="py-4">
+								<h2 class="text-20 text-brown font-weight-400 pt-3">Rona Dana</h2>
+								<p class='text-gray text-14'>Ladies Cut</p>
+							</div>
+							<div class="web-service position-absolute text-2">
+								<a href="#"><i class="fab fa-instagram text-decoration-none text-white text-24 px-1"></i></a>
+								<a href="#"><i class="fab fa-twitter text-decoration-none text-white text-24 px-1"></i></a>
+								<a href="#"><i class="fas fa-envelope text-decoration-none text-white text-24 px-1"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-2 col-md-5 col-lg-5 gallery-masters m-2  position-relative ">
+						<img class="col-12" src="/img/gallery2.webp" alt="">
+						<div class="py-4 text-center">
+							<h2 class="text-20 text-brown font-weight-400 pt-3">Rona Dana</h2>
+							<p class='text-gray text-14'>Ladies Cut</p>
+						</div>
+						<div class="web-service position-absolute">
+							<a href="#"><i class="fab fa-instagram text-decoration-none text-white text-24 px-1"></i></a>
+							<a href="#"><i class="fab fa-twitter text-decoration-none text-white text-24 px-1"></i></a>
+							<a href="#"><i class="fas fa-envelope text-decoration-none text-white text-24 px-1"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="bg-bottom">	
+			<div class="container d-flex justify-content-end ">
+				<div class="col-5 col-md-10 p-5 bg-honey">
+					<h2 class="text-42 font-weight-400 text-white pb-4">How to Find Us </h2>
+					<div class="line "></div>
+					<ul class="list-style-none contacts-list">
+						<li class="address pl-5 position-relative py-3 pt-5">
+							<div class="text-16 font-weight-400 pb-2">Local</div>
+							<a class=" text-decoration-none text-white text-18" href="#">200, A-block, Green road, USA</a>
+						</li>
+						<li class='call position-relative pl-5 py-3'>
+							<div> Call Us</div>
+							<a class="  text-decoration-none text-white text-18" href="tel:+10 378 478 2789">+10 378 478 2789</a>
+						</li>
+						<li class='mail position-relative pl-5 py-3'>
+							<div> Mail Us</div>
+							<a class=" text-decoration-none text-white text-18" href="mailto:contact@barbershop.com">contact@barbershop.com</a>
+						</li>
+					</ul>
+					<div id="make_an_appointment" class="py-5"><a href="#" class=" btn-outline modal_form_trigger px-3 py-3">Make an Appointment</a></div>
+
+				</div>
+			</div>
+			
+		</section>
+
+		<footer class="bg-brown">
+				<div class="container">
+					<div class="row">
+						<div class="col-3 col-md-6">
+							<h3 class="mb-5 text-white font-weight-400 text-24">Join With Us</h3>
+							<ul class="list-style-none">
+								<li><a href="#" class="text-gray f-family-roboto text-decoration-none font-weight-500 modal_form_trigger">Make Appointment</a>
+								<br>	
+								<li class="py-2"><a href="#" class="text-gray f-family-roboto text-decoration-none  font-weight-500">+10 378 478 2789</a></li></li>
+							</ul>
+						</div>
+						<div class="col-3 col-md-6 mb-5">
+							<h3 class="mb-5 text-white font-weight-400 text-24">Adress</h3>
+							<ul class="list-style-none">
+								<li class="py-1 text-gray f-family-roboto text-decoration-none font-weight-500">200, A-block, Green road, USA</li>
+								<li class="py-1 text-gray f-family-roboto text-decoration-none font-weight-500">+10 367 267 2678</li>
+								<li><a href="#" class="text-gray f-family-roboto text-decoration-none  font-weight-500">contact@nonprofit.com</a></li>
+								<div class="pt-4 ">
+									<a href="#"><i class="fab fa-instagram text-decoration-none  text-gray p-2"></i></a>
+									<a href="#"><i class="fab fa-twitter text-decoration-none text-gray p-2"></i></a>
+									<a href="#"><i class="fas fa-envelope text-decoration-none text-gray p-2"></i></a>
+								</div>
+							</ul>
+						</div>
+						<div class="col-2 col-md-6">
+							<ul class="list-style-none">
+								<li><h3 class="mb-5 text-white font-weight-400 text-24">Navigation</h3></li>
+								<li class="py-2 text-gray f-family-roboto  font-weight-400">Home</li>
+								<li class="py-2 text-gray f-family-roboto  font-weight-400">Rooms</li>
+								<li class="py-2 text-gray f-family-roboto  font-weight-400">About</li>
+								<li class="py-2 text-gray f-family-roboto  font-weight-400">News</li>
+							</ul>
+						</div>
+						<div class="col-4 col-md-6">
+							<h3 class="mb-5 text-white font-weight-400 text-24">Newsletter</h3>
+							<div>
+								<form class="d-flex">
+									<input type="text" placeholder="Enter your email" class="col-9 py-3 px-3 text-16">
+									<input type="submit" value="Sign Up"class=" btn-submite px-3 text-16 btn btn-honey">
+								</form>
+								<p class="text-gray f-family-roboto font-weight-300 pt-3">Subscribe newsletter to get updates</p>
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+			<div class="footer-down d-flex justify-content-center align-items-center container">
+				
+					<p class=" f-family-roboto  font-weight-500">Copyright ©2019 All rights reserved | This template is made with <i class="far fa-heart"></i> <a href="#" class="text-light-brown text-decoration-none">by Colorlib</a></p>
+			</div>
+			
+		</footer>	
+
+
+		<div id="modal_form" class=" modal_form_wrapper d-flex justify-content-center align-items-center h-100 position-fixed fixed-top col-12">
+			<form action="" class="col-6 col-xl-9 col-sm-11 bg-white p-5 d-flex flex-wrap position-relative">
+	
+				<div id="modal_close" class="modal_close position-absolute"></div>
+	
+				<div class="text-22 font-weight-400 text-center pb-4 col-12">Make an Appointment</div>
+	
+				<div class="col-6 col-sm-12 pb-4 px-2">
+					<input type="text" class="col-12 p-3" placeholder="Name">
+				</div>
+				<div class="col-6 col-sm-12 pb-4 px-2">
+					<input type="text" class="col-12 p-3" placeholder="Surname">
+				</div>
+				<div class="col-6 col-sm-12 pb-4 px-2">
+					<input type="email" class="col-12 p-3" placeholder="Email">
+				</div>
+				<div class="col-6 col-sm-12 pb-4 px-2">
+					<input type="tel" class="col-12 p-3" placeholder="Phone number">
+				</div>
+				<div class="col-12 pb-4 px-2">
+					<textarea class="col-12 p-3" rows="8" placeholder="Message"></textarea>
+				</div>
+				<div class="col-12 d-flex pb-4 px-2"><button type="submit" class="btn btn-brown px-5 col-12 py-3">Submit</button></div>
+			</form>
+		</div>
+
+
+
+
+
+
+
+
+	</main>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
